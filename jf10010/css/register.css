@@ -1,0 +1,336 @@
+html,body,p,dl,dt,dd,img,ul,li,ol,h1,h2,h3,h4,h5,h6,input,div,form,tr,td{
+	margin:0px;
+	padding:0px;
+	}
+body{
+	font-family:"微软雅黑",Arial;
+	}
+ul li,ol li{
+	list-style:none;
+	}
+
+
+img{
+	border:none;
+	}
+a{
+	text-decoration:none;
+	}
+
+
+#head{
+	display: flex;
+	width: 1020px;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+#head div:first-child{
+	display: flex;
+	align-items: center;
+}
+#head div:first-child span{
+	background: url(../img/column.jpg) left no-repeat;
+	padding-left: 16px;
+	font-size: 18px;
+}
+#head div:last-child a{
+	color: #ff6600;
+}
+#head div:last-child a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+/*register*/
+
+#content{
+	width: 100%;
+	height: 562px;
+	margin: 0 auto;
+	background: #f9f9f9;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+.con{
+	display: flex;
+	height: 54px;
+	position: relative;
+	font-size: 14px;
+	padding-top: 43px;
+	margin-left: 5px;
+}
+#content .con .step_1{
+	width: 400px;
+	height: 5px;
+	text-align: center;
+}
+.step_1 .left{
+	background: #fa7200 url(../img/progress.png) -20px -66px no-repeat;
+    width: 6px;
+    height: 5px;
+    float: left;
+    position: relative;
+    z-index: 10;
+    overflow: hidden;;
+}
+.step_1 .right{
+	background: #fa7200 url(../img/progress.png) -7px -66px no-repeat;
+    width: 6px;
+    height: 5px;
+    float: right;
+    position: absolute;
+    z-index: 10;
+    right: 400px;
+    overflow: hidden;
+}
+.step_1 .all{
+	background-color: #fa7200;
+    height: 5px;
+    margin: auto 5px auto 0;
+    position: relative;
+    z-index: 9;
+    overflow: hidden;
+}
+.step_img{
+	background: url(../img/progress.png) -2px -1px no-repeat;
+    width: 30px;
+    height: 25px;
+    color: #FFFFFF;
+    z-index: 99;
+    position: absolute;
+    margin-top: -17px;
+    padding-top: 5px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.step_name{
+	width: 400px;
+	text-align: center;
+	color: #888;
+	font-size: 12px;
+	padding-top: 20px;
+	font-weight: bold;
+}
+.step_2{
+	width: 400px;
+	height: 5px;
+	text-align: center;
+}
+.step_2 .left{
+	background: #cccccc url(../img/progress.png) -20px -73px no-repeat;
+    width: 6px;
+    height: 5px;
+    float: left;
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+}
+.step_2 .right{
+	background: #cccccc url(../img/progress.png) -7px -73px no-repeat;
+    width: 6px;
+    height: 5px;
+    float: right;
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    overflow: hidden;
+}
+.step_2 .all{
+	background-color: #cccccc;
+    height: 5px;
+    margin: auto 5px auto 0;
+    position: relative;
+    z-index: 9;
+    overflow: hidden;
+}
+.step_img_2{
+	background: url(../img/progress.png) -2px -32px no-repeat;
+    width: 30px;
+    height: 25px;
+    color: #FFFFFF;
+    z-index: 99;
+    position: absolute;
+    margin-top: -18px;
+    padding-top: 5px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+#content .excel{
+	position: relative;
+	margin-top: 30px;
+	background: white;
+	width: 800px;
+	height: 340px;
+	display: flex;
+	justify-content: center;
+	border: 1px solid #edebeb;
+}
+#attention{
+	position: absolute;
+	left: 140px;
+	top: 18px;
+	width: 500px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	display: none;
+}
+#attention img{
+	float: left;
+}
+#attention span{
+	float:left;
+	color: #ff6600;
+}
+#content .excel form{
+	font-size: 14px;
+	width: 500px;
+	text-align: center;
+	color: #333;
+	background: url(../img/back_form.jpg) right center no-repeat;
+}
+.excel form p{
+	display: flex;
+	padding-left: 74px;
+}
+.excel form label{
+	width: 60px;
+	height: 32px;
+	line-height: 32px;
+	text-align: right;
+	padding-right: 10px;
+
+	margin: 3px 0;
+}
+.excel a{
+	font-size: 12px;
+	color: blue;
+	cursor: pointer;
+	display: block;
+    margin-left: -75px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.excel a:hover{
+	text-decoration: underline; 
+}
+.excel form input{
+	width: 248px;
+	height: 28px;
+	margin: 3px 0;
+	border: 1px solid #c0c0c0;
+}
+.excel div:last-child{
+	width: 300px;
+}
+.produce{
+	font-size: 12px;
+	color: #333;
+	padding-top: 50px;
+}
+.produce h5{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 48px;
+	font-size: 14px;
+}
+.produce p{
+	width: 190px;
+	padding-left: 73px;
+	line-height: 24px;
+}
+.back{
+	background: url(../img/back1.jpg) left top repeat-x;
+}
+.back:hover{
+	background: url(../img/back2.jpg) left top repeat-x;
+}
+.verify{
+	width: 105px;
+	height: 32px;
+	background: gray;
+	text-align: center;
+	line-height: 32px;
+	margin-left: 20px;
+	margin-top: 15px;
+	cursor: pointer;
+}
+/*footer*/
+.middleArea {
+    width: 1003px;
+    margin: 0 auto;
+}
+.footLogo {
+    float: left;
+    width: 114px;
+    height: 56px;
+    margin: 10px 0;
+    background: url(../img/foot.png) 0 -52px no-repeat;
+}
+.footerNav {
+    float: right;
+    max-width: 600px;
+    text-align: center;
+    list-style: none outside none;
+    margin: 16px 0 0 0;
+    padding: 0;
+}
+.footerNav li {
+    line-height: 19px;
+    font-size: 12px;
+    width: 100%;
+    width: 545px;
+}
+.footerNav .footerFont:first-child a:hover{
+	text-decoration: none;
+	color: #999;
+}
+.footerFont {
+    color: #999999;
+    text-align: right;
+    line-height: 20px;
+    float: none;
+}
+.footerNav .splitline {
+    background: none repeat scroll 0 0 #999999;
+    opacity: 0.40;
+    filter: alpha(opacity=40);
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 1px;
+}
+.footerNav .cert {
+    background: url(../img/foot.png) -69px -10px no-repeat;
+    margin-top: 2px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.footerFont a {
+    color: #999999;
+    text-decoration: none;
+}
+.footerNav .seal {
+    background: url(../img/foot.png) -69px -29px no-repeat;
+    margin-top: 2px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.footerNav .footerFont:last-child a:first-child:hover{
+	background-position: -13px -10px;
+}
+ .footerNav .footerFont:last-child a:last-child:hover{
+	background-position: -13px -29px;
+} 
